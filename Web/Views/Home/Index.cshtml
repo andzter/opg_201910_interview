@@ -1,0 +1,13 @@
+﻿@{ ViewData["Title"] = "Home Page"; }
+
+@model List<string>
+
+    <div class="text-center">
+
+        <h1>Files : </h1>
+
+        @foreach (var file in Model)
+        {
+            <p>@Html.DisplayFor(m => file)</p>
+        }
+    </div>

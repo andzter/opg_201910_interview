@@ -1,0 +1,5 @@
+{
+  "ClientId": "1001",
+  "Files": [ "shovel", "waghor", "blaze", "discus" ],
+  "Format": "([a-zA-Z]-\\d{4}-\\d{2}-\\d{2})+(.xml)$"
+}
